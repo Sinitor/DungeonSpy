@@ -26,7 +26,7 @@ public class OpenDoor : MonoBehaviour
 	{
 		if (col.tag == "Player")
 		{
-			open = true;
+		  open = true;
 		}
 	}
 }
