@@ -18,7 +18,7 @@ public class OpenDoor : MonoBehaviour
 	{
 		if (open)
 		{
-			transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, Time.deltaTime * smooth);
+	          transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, Time.deltaTime * smooth);
 		}
 	}
 
