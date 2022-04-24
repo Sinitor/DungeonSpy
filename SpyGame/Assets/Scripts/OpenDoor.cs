@@ -20,10 +20,6 @@ public class OpenDoor : MonoBehaviour
 		{
 			transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, Time.deltaTime * smooth);
 		}
-		else
-		{
-			transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, defaultRot, Time.deltaTime * smooth);
-		}
 	}
 
 	void OnTriggerEnter(Collider col)
